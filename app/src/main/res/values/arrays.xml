@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="text_more_anim">
+        <item>@color/color_tab_line</item>
+    </integer-array>
+</resources>

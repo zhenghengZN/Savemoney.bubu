@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fl_find_sydney"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/fragmemt_top_height"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_find_sydney"
+                android:layout_width="@dimen/icon_width_height"
+                android:layout_height="@dimen/icon_width_height"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_find_sydney"
+                style="@style/tabBtnStyle"
+                android:text="@string/text_city_find_sydney" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vw_find_sydney"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_tab_line" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_raiders"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/fragmemt_top_height"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_raiders"
+                android:layout_width="@dimen/icon_width_height"
+                android:layout_height="@dimen/icon_width_height"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_raiders"
+                style="@style/tabBtnStyle"
+                android:text="@string/text_city_raiders" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vw_raiders"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_tab_line" />
+    </FrameLayout>
+
+</LinearLayout>

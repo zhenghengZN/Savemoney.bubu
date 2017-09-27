@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bubu_Lib/Bubu_Lib.iml" filepath="$PROJECT_DIR$/Bubu_Lib/Bubu_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Savemoney.iml" filepath="$PROJECT_DIR$/Savemoney.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_material/lib_material.iml" filepath="$PROJECT_DIR$/lib_material/lib_material.iml" />
+    </modules>
+  </component>
+</project>

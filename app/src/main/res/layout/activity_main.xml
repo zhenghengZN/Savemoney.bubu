@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <wiget.NoScrollViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:overScrollMode="never" />
+
+    <View
+        android:id="@+id/vw_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="49dp"
+        android:visibility="gone"
+        android:background="@color/color_vertical_line" />
+
+    <ImageView
+        android:id="@+id/iv_activity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="321dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_rb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/rb_taobao"
+            style="@style/mainBtnStyle"
+            layout="@layout/common_bottom_btn" />
+
+        <include
+            android:id="@+id/rb_about"
+            style="@style/mainBtnStyle"
+            layout="@layout/common_bottom_btn"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

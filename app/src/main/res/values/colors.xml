@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF6F06</color>
+    <color name="colorPrimaryDark">#82cd6b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_ff6f06">#FF6F06</color>
+    <color name="color_ff5000">#FF5000</color>
+
+    <color name="color_888888">#888888</color>
+    <color name="color_d8d8d8">#D8D8D8</color>
+    <color name="color_686868">#686868</color>
+    <color name="color_3ac280">#3ac280</color>
+    <color name="color_6fcc52">#6fcc52</color>
+    <color name="color_ed6b6c">#ED6B6C</color>
+    <color name="color_e688e9">#e688e9</color>
+    <color name="color_ee9589">#ee9589</color>
+    <color name="color_e8be4e">#e8be4e</color>
+    <color name="color_40afd4">#40AFD4</color>
+    <color name="color_efcb95">#efcb95</color>
+    <color name="color_ef5050">#ef5050</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_ff3c3c">#FF3C3C</color>
+    <color name="color_ffbcc8">#FFBCC8</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_df4900">#df4900</color>
+    <color name="color_e79369">#e79369</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_cc000000">#CC000000</color>
+    <color name="color_33000000">#33000000</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_d35d5d">#d35d5d</color>
+    <color name="color_69ade7">#69ade7</color>
+    <color name="color_cdb26b">#cdb26b</color>
+    <color name="color_aa333333">#AA333333</color>
+    <color name="color_fbf7ed">#FBF7ED</color>
+    <color name="color_e2e2e2">#e2e2e2</color>
+    <color name="color_848484">#848484</color>
+    <color name="color_4fb5ef">#4FB5EF</color>
+    <color name="color_ff8cc8">#FF8CC8</color>
+    <color name="color_7faaf1">#7FAAF1</color>
+    <color name="color_7bc5b3">#7bc5b3</color>
+    <color name="color_242424">#242424</color>
+    <color name="color_82cd6b">#82cd6b</color>
+    <color name="color_d2d2d2">#d2d2d2</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_d26039">#d26039</color>
+    <color name="color_ef824c">#ef824c</color>
+    <color name="color_f9f9f9">#f9f9f9</color>
+
+    <color name="color_rating">#FBE367</color>
+    <color name="color_vertical_line">#A3A19A</color>
+    <color name="color_tab_line">#82CD6B</color>
+    <color name="color_hot_line">#848484</color>
+    <color name="color_listview_line">#E2E2E2</color>
+    <color name="color_listview_bg">#0F000000</color>
+    <color name="color_menu_infor">#999999</color>
+    <color name="color_menu_money_bg">#4D000000</color>
+    <color name="color_select_bg">#F2F2F2</color>
+    <color name="color_clear_history">#666666</color>
+    <color name="color_web_title">#2D9AFF</color>
+    <color name="color_img_logo">#D2D2D2</color>
+    <color name="color_hot_recommend">#C0BEB9</color>
+    <color name="color_dynamic_icon">#B2B2B2</color>
+    <color name="color_dynamic_bg">#4C000000</color>
+
+    <color name="category_tab_text">#999999</color>
+    <color name="category_tab_highlight_text">#FFFFFF</color>
+
+    <color name="picker_pager_black">#000000</color>
+    <color name="picker_common_primary">#f3f3f3</color>
+    <color name="text_user_name">#F6981E</color>
+
+    <color name="picker_text_40">#282828</color>
+    <color name="picker_text_80">#505050</color>
+
+    <color name="text_dynamic_attention">#C5BAA1</color>
+
+    <color name="text_tips_bg">#FEE6AA</color>
+    <color name="text_tips_content">#FFD772</color>
+
+    <color name="color_play_raiders">#F4EFE4</color>
+    <color name="color_play_name">#E4DCCB</color>
+    <color name="color_no_empty">#E4DED0</color>
+
+    <color name="color_add_appointment_list">#666666</color>
+    <color name="color_add_appointment_list_no">#999999</color>
+    <color name="color_btn_bg">#FFAE00</color>
+    <color name="color_line_bg">#D2D2D2</color>
+    <color name="color_appointment_bg">#F2F2F2</color>
+
+    <color name="color_share_sina">#D6484D</color>
+    <color name="color_share_weixing">#66D15D</color>
+    <color name="color_share_weixing_friend">#5CCBDB</color>
+
+    <color name="color_un_select">#CFCFCF</color>
+
+    <color name="color_go_go_go">#EBBAB5</color>
+
+    <color name="color_money">#FF6282</color>
+    <color name="color_icon_pro">#EF7528</color>
+    <color name="color_icon_lines">#F88280</color>
+
+    <color name="color_d03f3f">#D03F3F</color>
+    <color name="color_a89e84">#a89e84</color>
+</resources>

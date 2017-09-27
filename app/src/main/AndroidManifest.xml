@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="so.bubu.Coupon.AliTrade" >
+
+    <!-- 外部存储写入权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 为了更好的体验需要获取地理信息的权限 (以下非必须权限) -->
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- leancloud基础模块  （必须加入以下声明）START -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 地图包、搜索包需要的基础权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_MEDIA_STORAGE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- // 定位包、导航包需要的额外权限（注：基础权限也需要） -->
+
+
+    <!-- 用于进行网络定位 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission> -->
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission> -->
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission> -->
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <!-- <uses-permission android:name="android.permission.INTERNET"></uses-permission> -->
+    <!-- 用于读取手机当前的状态 -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission> -->
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> -->
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- leadcloud需要 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="app.CityGuideApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/BaseAppTheme.NoActionBar.SwipeBack"
+        tools:replace="android:allowBackup"
+        >
+
+        <!--<meta-data-->
+            <!--android:name="com.alibaba.app.applink.backurl"-->
+            <!--android:value="tbopen://alitradecoupon.bubu.so"/>-->
+
+        <meta-data
+            android:name="com.alibaba.app.pid"
+            android:value="mm_119950409_20916506_70766512"/>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="584e14052ae85b3da7000609" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity
+            android:name=".activity.LoadingActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.avos.avoscloud.PushService" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="alitradecoupon.bubu.so"
+                    android:scheme="tbopen" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.about.AboutAuthorActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activity.about.WeixinOpenActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activity.Taobao.SearchActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+
+        <activity android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.alibaba.baichuan.android.trade.ui.activity.AlibcWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ali.auth.third.ui.LoginWebViewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

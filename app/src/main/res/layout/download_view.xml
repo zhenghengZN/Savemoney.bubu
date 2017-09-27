@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_enter_message"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/custom_enter_message_icon"
+        android:layout_height="@dimen/custom_enter_message_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_enter_message_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/iv_icon">
+
+        <TextView
+            android:id="@+id/tv_max_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/color_add_appointment_list"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_min_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/color_add_appointment_list_no"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_download"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="53dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/btn_add_copy"
+        android:gravity="center"
+        android:text="@string/title_download"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/vw_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="27dp"
+        android:background="#D2D2D2" />
+
+</RelativeLayout>

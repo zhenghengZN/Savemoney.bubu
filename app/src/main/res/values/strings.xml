@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">省钱达人</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_loading_fail">我无能，加载失败了</string>
+    <string name="text_loading_no_data">亲，还木有数据哦～</string>
+    <string name="text_main_next">下一步</string>
+    <string name="text_city_find_sydney">发现悉尼</string>
+    <string name="text_city_raiders">城市攻略</string>
+    <string name="text_city_dynamic">动态</string>
+    <string name="text_city_user">淘宝优惠卷</string>
+    <string name="text_city_find">关于我们</string>
+    <string name="app_exit">再按一次退出</string>
+    <string name="error_unknown_url">无法识别的网址</string>
+    <string name="error_url">无法打开该链接</string>
+    <string name="network_error">网络不可用</string>
+    <string name="text_net_no">亲，网络不给力哦～</string>
+    <string name="text_main_taobao">内部优惠卷</string>
+    <string name="title_activity_setting">关于我们</string>
+    <string name="title_download">下载</string>
+    <string name="text_city_menu">菜单</string>
+    <string name="title_setting_web_sina_url">weibo.com/stepscloud</string>
+    <string name="title_setting_web_zhihu_url">https://zhuanlan.zhihu.com/bubu-cityguide</string>
+    <string name="title_setting_web_url">www.bubu.so</string>
+    <string name="more_project">更多产品</string>
+    <string name="weixin_label">微信公众号</string>
+    <string name="copy_already">已复制</string>
+    <string name="weixin_copy_name">复制微信公众号名称</string>
+    <string name="weixin_save_qr">保存二维码</string>
+    <string name="choose_weixin_follow">选择后将跳转到微信关注我们</string>
+    <string name="title_about_author">上海迪士尼乐园游玩攻略内容由以下网友贡献：\n@Miakooo\n@牙叔\n@迪拜的猴子\n@四倍体\n@Irene_Chow\n@梧桐</string>
+    <string name="title_download_step">步步行程助手</string>
+    <string name="title_download_step_tips">自由行行程规划工具App</string>
+    <string name="title_download_bubu">步步澳洲</string>
+    <string name="title_download_bubu_tips">最in的澳大利亚旅行生活指南App</string>
+    <string name="title_setting_guide">微信公众号</string>
+    <string name="title_setting_bubu">步步指南</string>
+    <string name="title_setting_bubu_zhihu">步步城市指南</string>
+    <string name="title_setting_web">云端&amp;网站</string>
+    <string name="title_setting_web_content">www.bubu.so</string>
+    <string name="title_setting_sina">新浪微博</string>
+    <string name="title_setting_zhihu">知乎</string>
+    <string name="title_bubu_author">步步作者</string>
+    <string name="title_activity_web">我们的网站</string>
+    <string name="title_activity_web_single">网站</string>
+
+    <string name="title_author">攻略作者</string>
+    <string name="title_author_content">作者</string>
+    <string name="title_countdown">%d秒</string>
+    <string name="click_to_follow">点击关注</string>
+    <string name="text_city_no_search_key">亲，没有输入搜索词哦</string>
+    <string name="text_city_search_result">搜索结果</string>
+    <string name="text_please_enter_key">请输入关键字</string>
+    <string name="text_city_search">取消</string>
+    <string name="text_clear_search_history">清空搜索历史</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

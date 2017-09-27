@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_top_height"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/iv_back_poi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_back_poi_imageview"
+                android:layout_width="@dimen/icon_small_height"
+                android:layout_height="@dimen/icon_small_height" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_current_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textSize="10sp"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textColor="@color/color_82cd6b"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/color_000000"
+            android:textSize="19sp" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:scrollbars="horizontal"
+            app:tabBackground="@android:color/white"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@android:color/black"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@android:color/black"
+            app:tabTextAppearance="@style/mainTopTablayout"
+            app:tabTextColor="#999999" />
+
+        <LinearLayout
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/tv_search_imageview"
+                android:layout_width="@dimen/icon_small_height"
+                android:layout_height="@dimen/icon_small_height" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View style="@style/normal_line" />
+
+</LinearLayout>

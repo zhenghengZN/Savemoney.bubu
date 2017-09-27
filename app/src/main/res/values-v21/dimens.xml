@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="icon_width_height">20dp</dimen>
+    <dimen name="activity_top_height">44dp</dimen>
+    <dimen name="fragmemt_top_height">40dp</dimen>
+    <dimen name="fragment_top_height_tab">33dp</dimen>
+
+    <dimen name="icon_mini_height">15dp</dimen>
+    <dimen name="icon_mini_width">15dp</dimen>
+
+    <dimen name="icon_small_height">18dp</dimen>
+
+
+    <dimen name="common_top_height">44dp</dimen>
+    <dimen name="common_top_icon_width_or_height">22dp</dimen>
+    <dimen name="custom_enter_message">73dp</dimen>
+    <dimen name="custom_enter_message_icon">40dp</dimen>
+    <dimen name="custom_enter_message_enter">150dp</dimen>
+    <dimen name="custom_enter_message_space">10dp</dimen>
+</resources>

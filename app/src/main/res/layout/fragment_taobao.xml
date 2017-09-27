@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="so.bubu.cityguide.sydney.place.ui.TaobaoFragment">
+
+    <include
+        android:id="@+id/ic_main_content"
+        layout="@layout/fragment_common_top_main_v2" />
+
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/taobao_slidingTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_top_height"
+        android:background="@android:color/white"
+        tl:tl_textSelectColor="@color/color_ff6f06"
+        tl:tl_indicator_color="@color/color_ff5000"
+        tl:tl_indicator_height="2dp"
+        tl:tl_textsize="16sp"
+        tl:tl_tab_padding="10dp"
+        tl:tl_textUnselectColor="@android:color/black"
+        />
+
+    <wiget.FatherViewPager
+        android:id="@+id/view_pager_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        />
+
+</LinearLayout>

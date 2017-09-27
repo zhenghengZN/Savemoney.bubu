@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="so.bubu.cityguide.sydney.place.ui.TaobaoContentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.cjj.MaterialRefreshLayout
+            android:id="@+id/mrl_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:isLoadMore="true"
+            app:overlay="false"
+            app:progress_colors="@array/text_more_anim"
+            app:progress_size_type="normal"
+            app:wave_color="@color/color_tab_line"
+            app:wave_height_type="normal"
+            app:wave_show="true">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_information"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbarSize="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.cjj.MaterialRefreshLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

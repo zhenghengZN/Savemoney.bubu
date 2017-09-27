@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_top_height"
+    android:background="@color/color_ffffff">
+
+    <FrameLayout
+        android:id="@+id/fl_left"
+        android:layout_width="@dimen/common_top_height"
+        android:layout_height="@dimen/common_top_height"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/icon_mini_height"
+            android:layout_height="@dimen/icon_mini_height"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/vector_drawable_icon_back" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_right"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_top_height"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_right_icon"
+        android:layout_width="@dimen/common_top_height"
+        android:layout_height="@dimen/common_top_height"
+        android:layout_alignParentRight="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/tv_right_icon"
+            android:layout_width="@dimen/icon_mini_height"
+            android:layout_height="@dimen/icon_mini_height"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:gravity="center"
+        android:textColor="@color/color_000000"
+        android:textSize="19sp"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_d8d8d8" />
+
+</RelativeLayout>

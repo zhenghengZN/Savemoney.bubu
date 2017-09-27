@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_appointment_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_top_show" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_appointment_bg"
+            android:orientation="vertical">
+
+            <wiget.DownloadView
+                android:id="@+id/dlv_step"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                custom:max_tips="@string/title_download_step"
+                custom:min_tips="@string/title_download_step_tips" />
+
+            <wiget.DownloadView
+                android:id="@+id/dlv_bubu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                custom:has_bottom="false"
+                custom:max_tips="@string/title_download_bubu"
+                custom:min_tips="@string/title_download_bubu_tips" />
+
+            <wiget.EnterMessageView
+                android:id="@+id/emv_wechat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                android:layout_marginTop="@dimen/custom_enter_message_space"
+                custom:hint="@string/title_setting_bubu" />
+
+            <wiget.EnterMessageView
+                android:id="@+id/emv_zhihu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                custom:hint="@string/title_setting_zhihu" />
+
+            <wiget.EnterMessageView
+                android:id="@+id/emv_web"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                custom:hint="@string/title_activity_web_single"
+                custom:is_has_bottom="false"/>
+
+            <wiget.EnterMessageView
+                android:id="@+id/emv_author"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_enter_message"
+                android:layout_marginTop="12dp"
+                android:visibility="gone"
+                custom:hint="@string/title_author"
+                custom:is_has_bottom="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
